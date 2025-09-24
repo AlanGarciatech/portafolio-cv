@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio Alan Uriel Garcia Campos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Encabezado con animación cíclica -->
+  <header class="bg-primary text-white py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <!-- Texto animado -->
+        <div class="text-center text-md-start mb-3 mb-md-0">
+          <h1 class="typewriter">
+            <span>Alan Uriel Garcia Campos</span>
+            <span>Full Stack Java Developer</span>
+            <span>Desarrollador Web Full-Stack</span>
+          </h1>
+        </div>
+
+        <!-- Foto -->
+        <div class="text-center">
+          <img src="imagene/perfil.jpg" 
+               alt="Foto de Alan Uriel García Campos" 
+               class="rounded-circle shadow-lg border border-3 border-white" 
+               style="width: 150px; height: 150px; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="container py-5">
+    <h2 class="text-center mb-4">Sobre mí</h2>
+    <p class="text-justify">
+      Soy un desarrollador web apasionado por la creación de aplicaciones funcionales y atractivas. Me interesa el aprendizaje continuo y el trabajo colaborativo en proyectos que aporten soluciones innovadoras.
+      Durante el programa de Generation México, trabajé en un proyecto de e-commerce, desarrollando la estructura de la página web, funcionalidades como carrito de compras, sistema de pagos simulados y conexión con bases de datos para gestionar productos y usuarios.
+      Esta experiencia me permitió aplicar mis conocimientos en un proyecto real, reforzar mis habilidades de programación y aprender buenas prácticas de desarrollo. Para probar mi código, realizo revisiones de funcionalidad, pruebas unitarias e integración, depuración y pruebas manuales, asegurando que todo funcione correctamente antes de entregar.
+    </p>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Habilidades</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-3"><span class="badge bg-secondary p-2">Java (Spring Boot)</span></div>
+        <div class="col-md-4 mb-3"><span class="badge bg-secondary p-2">JavaScript (Bootstrap, Node.js)</span></div>
+        <div class="col-md-4 mb-3"><span class="badge bg-secondary p-2">HTML5 y CSS</span></div>
+        <div class="col-md-4 mb-3"><span class="badge bg-secondary p-2">MySQL</span></div>
+        <div class="col-md-4 mb-3"><span class="badge bg-secondary p-2">Git y GitHub</span></div>
+        <div class="col-md-4 mb-3"><span class="badge bg-secondary p-2">Scrum</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="container py-5">
+    <h2 class="text-center mb-4">🚀 Proyectos Destacados</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagene/0_cJW3ORkQgL_YsU2b.jpg" class="card-img-top" alt="Proyecto E-commerce" />
+          <div class="card-body">
+            <h5 class="card-title">E-commerce Java</h5>
+            <p class="card-text">Aplicación web con Spring Boot, MySQL y Bootstrap. Incluye carrito, pagos simulados y gestión de usuarios.</p>
+            <a href="https://github.com/AlanGarciatech/ecommerce-java" target="_blank" class="btn btn-primary">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagene/portada-blog-personal-david-zamora.png" class="card-img-top" alt="Proyecto Blog" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Personal</h5>
+            <p class="card-text">Blog dinámico con CRUD en Spring Boot y Bootstrap. Permite publicar, editar y eliminar entradas.</p>
+            <a href="https://github.com/AlanGarciatech/blog-java" target="_blank" class="btn btn-primary">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="imagene/¿Cómo-funciona-Restful.png" class="card-img-top" alt="Proyecto API REST" />
+          <div class="card-body">
+            <h5 class="card-title">API REST de Productos</h5>
+            <p class="card-text">API RESTful con Spring Boot y Swagger para gestionar productos, categorías y usuarios.</p>
+            <a href="https://github.com/AlanGarciatech/api-productos" target="_blank" class="btn btn-primary">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="container py-5">
+    <h2 class="text-center mb-4">Conéctate conmigo</h2>
+    <div class="text-center">
+      <a href="https://www.linkedin.com/in/alan-garcia-campos" target="_blank" 
+         class="btn btn-outline-primary m-2">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/AlanGarciatech" target="_blank" 
+         class="btn btn-outline-dark m-2">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- Botón flotante -->
+  <button id="btn-top" class="btn btn-primary">↑</button>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Alan Dev. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+</body>
+</html>
